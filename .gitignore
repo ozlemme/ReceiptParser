@@ -1,0 +1,10 @@
+_nuget_packages
+_out
+*.suo
+.vs/
+obj/
+bin/
+_ReSharper.Caches/
+*.user
+*.pdb
+*.exe

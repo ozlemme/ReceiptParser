@@ -1,0 +1,28 @@
+﻿@page
+@model IndexModel
+
+@{
+    int rowNumber = 1;
+}
+
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Line</th>
+                <th>Text</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.PrintList)
+            {
+                <tr>
+                    <td>@(rowNumber++)</td>
+                    <td>@item</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
